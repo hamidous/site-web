@@ -1,0 +1,166 @@
+<html lang="fr-be">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <title>Cours d'informatique</title>
+    <meta name="description" >
+    <meta name="keywords" >
+    <meta name="subject" >
+    <meta name="author">
+    <meta name="copyright">
+    <meta name="revisit-after" >
+    <link rel="stylesheet" href="info.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="print.css" type="text/css" media="print">
+</head>
+<body>
+
+  <div id="conteneur">
+         <div class="front">
+             <h1>Un peu d'informatique et puis d'autres choses</h1>
+         </div>
+         <div id="texte">
+		 <p>Bonjour je suis Abdelhamid ichrmad un étudiant à la faculté des science Rabat j ai créé ce site éducatif j'éspère que vous satisfait </p>
+            <div id="menuDroit">
+
+</div>
+<h1>Cours d'informatique</h1>
+             <h2>Introduction </h2>
+               <p>Introduction
+L'informatique est la science de l'information automatisée, c’est donc la théorie méthodique sur la transmission d'information par des moyens mécaniques et répétitifs dans le but de connaître plus de choses, plus vite et plus loin.
+
+L'informatique est le traitement automatique des informations, traitement qui inclut : l'extraction, la gestion, l'organisation, la génération des informations. Cette science transforme des informations à l'état brut en des données exploitables et structurées.
+
+Commençons par comprendre comment nous communiquons et recevons des informations avant de voir comment améliorer les transmissions d'informations de manières plus rapide et efficace grâce à des machines mécaniques.</p>
+
+           <div class="bloc">
+               <h2>Algorithmique et Programmation </h2>
+               <ul class="blocmenu">
+                   <li> <img src="C.jpg" style="border: 0px solid ; width: 50px; height: 50px;" alt="C.jpg">
+                       <a href="infobase/index.php">C langage</a>
+                   </li>
+                   <li> <img src="science.jpg" style="border: 0px solid ; width: 50px; height: 50px;" alt="Sciences">
+                       <a href="javascript:void(0);">Algorithmique</a>
+                   </li>
+               </ul>
+
+               <h2> Technologie de Web </h2>
+               <ul class="blocmenu">
+                   <li> <img src="html.png" style="border: 0px solid ; width: 45px; height: 50px;" alt="Python"> <a href="python/index.php">HTML</a> </li>
+                   <li><img src="css.png" style="border: 0; width: 60px" alt="Scratch"><a href="scratch/index.php">CSS</a></li>
+                   <li> <img src="js.png" style="border: 0px solid ; width: 50px; height: 50px;" alt="Delphi"> <a href="delphi/index.php">Javascript</a> </li>
+               </ul>
+           </div>
+           <div class="bloc">
+                <h2>Maths&Electronique et SE</h2>
+                <ul class="blocmenu">
+                    <li>
+                        <a href="tdtooo/index.php" >
+                       
+                            <img style="border: 0pt none ; width: 39px; height: 48px;"  src="unix.jpg">Systeme d'exploitation
+                            <br>Programmation Shell&Unix</a>
+                    </li>
+                    <li>
+                       
+                            <img style="border: 0pt none ; width: 38px; height: 48px;"  src="proba.png">Probabilités Statistique
+                            <br></a>
+                    </li>
+                    <li>
+                        <a href="impress/index.php" <img src="impress.jpg" style="border: 0pt none ; width: 48px; height: 48px;" >
+                            <img style="border: 0pt none ; width: 39px; height: 48px;"  src="electro.jpg">Electronique
+                            <br>Logique combinatoire et séquentielle</a>
+                    </li>
+                    <li>
+                        
+                            <img style="border: 0pt none ; width: 39px; height: 48px;" src="exams.jpg">
+                            <br>Quelques Exams </a>
+                    </li>
+                  
+                </ul>
+            </div>
+
+            <h2 style="clear:both"><a id="1">Special thanks to</a></h2>
+            <p>Merci à Pr E.M.SOUIDI pour son aide et son soutien HTML & CSS& JS au cours de l'année ></p>
+            
+            <div class="slideshow"><style>
+
+.slideshow {
+   position:center;
+   width: 300px;
+
+   height: 300px;
+
+   overflow: hidden;
+
+   border: 3px solid #F2F2F2;
+
+}
+
+.slideshow ul {
+
+    /* 3 images donc 4 x 100% */
+
+   width: 300%;
+
+   height: 300px;
+
+   padding:0; margin:0;
+
+   list-style: none;
+
+}
+
+.slideshow li {
+
+   float: center;
+
+}</style>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+
+   $(function(){
+
+      setInterval(function(){
+
+         $(".slideshow ul").animate({marginLeft:-350},800,function(){
+
+            $(this).css({marginLeft:0}).find("li:last").after($(this).find("li:first"));
+
+         })
+
+      }, 3500);
+
+   });
+
+</script>
+
+<ul>
+
+             <li><img src="pro.jpg" alt="" width="300" height="300" /></li>
+
+             <li><img src="programma.jpg" alt="" width="300" height="300" /></li>
+
+             <li><img src="atelier.jpg" alt="" width="300" height="300" /></li>            
+
+       </ul>
+<p>Merci à Pr E.M.SOUIDI pour son aide et son soutien HTML & CSS& JS au cours de l'année 2019-2020 ></p>
+            
+            <h2 style="clear: left;"></h2>
+                <p class="questions"></p>
+        </div>
+<p id="CC"> Le développement informatique n’est pas la seule affaire de programmeurs. C’est un travail encore plus compliqué qui fait appel à des informaticiens mais aussi à un travail d’écoute et de dialogue. Il peut aussi faire appel à des gestionnaires pour des parties plus spécialisées. C’est donc tout un travail d’équipe comme Dune Gestion sait le faire. Découvrez tous ces développements que nous sommes habilités à réaliser pour vous en entrant en contact avec nos services.</p>
+
+        <div id="pied">
+             </div>
+    </div>
+
+</body>
+
+</html>
+
+
+
+
+</body>
